@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Vagas Golang",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/f078/e3f11b5b85c842bc964b1b3073b8321c/APP_ICON?versionId=6Xevh.MPxvyHNdqanGlh5c9rKwjlJuhq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191020T170308Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=54f9d18f48b7e06452cf311022b6f37a813accbc6e668ccc300ed44dd28af981",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9796/4fd127b2b77a4290be69152794c3cf8f/APP_ICON_LARGE?versionId=n1R0YJFkfR5VGNKxkd7KsLxthn63JBWL&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191020T170308Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=611a43e233a9bec2efef176e0305d72bd5c1fe1dd10c50977eb27f31866ed539",
+          "summary": "Resumo das últimas vagas de golang",
+          "description": "Resumo das últimas vagas de golang postadas no https://github.com/Gommunity/vagas",
+          "examplePhrases": [
+            "Vagas golang"
+          ],
+          "keywords": [
+            "vagas",
+            "golang",
+            "developer"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Just say: \"Alexa, vagas golang\"",
+      "category": "NEWS",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": "ask-custom-vagas-golang-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
