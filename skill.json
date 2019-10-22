@@ -1,5 +1,15 @@
 {
   "manifest": {
+    "privacyAndCompliance": {
+      "locales": {
+        "pt-BR": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
     "publishingInformation": {
       "locales": {
         "pt-BR": {
@@ -7,9 +17,10 @@
           "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/f078/e3f11b5b85c842bc964b1b3073b8321c/APP_ICON?versionId=6Xevh.MPxvyHNdqanGlh5c9rKwjlJuhq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191020T170308Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=54f9d18f48b7e06452cf311022b6f37a813accbc6e668ccc300ed44dd28af981",
           "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9796/4fd127b2b77a4290be69152794c3cf8f/APP_ICON_LARGE?versionId=n1R0YJFkfR5VGNKxkd7KsLxthn63JBWL&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191020T170308Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=611a43e233a9bec2efef176e0305d72bd5c1fe1dd10c50977eb27f31866ed539",
           "summary": "Resumo das últimas vagas de golang",
-          "description": "Resumo das últimas vagas de golang postadas no https://github.com/Gommunity/vagas",
+          "description": "Essa skill irá fazer um resumo das últimas vagas de golang postadas no https://github.com/Gommunity/vagas. Você pode executar essa skill em qualquer dispositivo Amazon Echo.",
           "examplePhrases": [
-            "Vagas golang"
+            "Alexa, Vagas Golang",
+            "Alexa, Abra o Vagas Golang"
           ],
           "keywords": [
             "vagas",
