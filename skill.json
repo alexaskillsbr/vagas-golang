@@ -19,8 +19,8 @@
           "summary": "Resumo das últimas vagas de golang",
           "description": "Essa skill irá fazer um resumo das últimas vagas de golang postadas no https://github.com/Gommunity/vagas. Você pode executar essa skill em qualquer dispositivo Amazon Echo.",
           "examplePhrases": [
-            "Alexa, Vagas Golang",
-            "Alexa, Abra o Vagas Golang"
+            "Alexa, Abrir Vagas Golang",
+            "Alexa, Começar Vagas Golang"
           ],
           "keywords": [
             "vagas",
